@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="" name="kontakt" id="kontakt" summary="kontakt formular" >    
+        <table>
+            <tr>   
+                <td>Navn:</td>
+                <td>
+                    <input type="text" name="navn" id="navn" style="width: 200px;" /> 
+                </td>
+            </tr>
+            <tr>   
+                <td>Adresse:</td>
+                <td>   
+                    <input type="text" name="adresse"id="adresse"style="width: 200px;" /> 
+                </td>
+            </tr>
+            <tr>   
+                <td>Postnr &amp; By:</td>
+                <td>   
+                    <input type="text" name="postnr" id="postnr" style="width: 50px;" /> 
+                    <input type="text" name="by"id="by"style="width: 140px;" />
+                </td>
+            </tr>
+            <tr>   
+                <td>Telefon:</td>
+                <td>   
+                    <input type="text" name="telefon"id="telefon"style="width: 200px;" /> 
+                </td>
+            </tr>
+            <tr>   
+                <td>Email:</td>
+                <td>   
+                    <input type="text" name="email"id="email"style="width: 200px;" /> 
+                </td>
+            </tr>
+            <tr>   
+                <td   colspan="2">Tilmeld Nyhedsbrev: 
+                    <input type="checkbox" name="nyhedsbrev" id="nyhedsbrev" value="tilmeld"/> 
+                </td>
+            </tr>
+            <tr>   
+                <td>Besked:</td>
+                <td>   
+                    <textarea name="besked" id="besked" cols="50"rows="6"style="width: 200px;"></textarea> 
+                </td>
+            </tr>
+            <tr>   
+                <td>&nbsp;</td>
+                <td>   
+                    <input type="submit" name="send" id="send" value="Send" /> 
+                </td>
+            </tr>   
+        </table>
+        </form>
+    <script src="script.js"></script>
+</body>
+</html>
